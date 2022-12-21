@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LOCMainActivity">
+
+    <!--<LinearLayout
+        android:id="@+id/toplogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/logo" />
+    </LinearLayout>-->
+    <!--<TextView
+    android:layout_below="@+id/toplmage"
+    android:textColor="@color/colorWhite"
+    android:textSize="25sp"
+    android:textAlignment="center"
+    android:text="Login"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal" />-->
+
+    <LinearLayout
+        android:id="@+id/loginform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/srmlogo" />
+        <include layout="@layout/loginform_loc"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--tools:context=".MainActivity">-->
+<!--<View-->
+<!--    android:id="@+id/header_view"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="150dp"-->
+<!--    android:background="@drawable/header_bg">-->
+<!--</View>-->
+<!--    <TextView-->
+<!--        android:id="@+id/toplmage"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="eVarsity "-->
+<!--        android:fontFamily="@font/mtcorsiva"-->
+<!--        android:textStyle="bold"-->
+<!--        android:padding="10dp"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textColorHighlight="@android:color/primary_text_dark"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="40dp"/>-->
+<!--<TextView-->
+<!--    android:layout_below="@+id/toplmage"-->
+<!--    android:textColor="@color/colorWhite"-->
+<!--    android:textSize="25sp"-->
+<!--    android:textAlignment="center"-->
+<!--    android:text="Login"-->
+<!--    android:textStyle="bold"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:gravity="center_horizontal" />-->
+<!--<LinearLayout-->
+<!--    android:id="@+id/loginform"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_below="@+id/header_view"-->
+<!--    android:orientation="vertical">-->
+<!--    <include layout="@layout/loginform"/>-->
+<!--</LinearLayout>-->
+<!--<LinearLayout-->
+<!--    android:gravity="bottom"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_below="@+id/loginform"-->
+<!--    android:background="@drawable/bottom_bg"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="200dp">-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:text="Trial Version 0.1"-->
+<!--        android:fontFamily="@font/mtcorsiva"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/colorWhite"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="italic"/>-->
+<!--&lt;!&ndash;    <View&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="200dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:background="@drawable/bottom_bg"/>&ndash;&gt;-->
+
+<!--</LinearLayout>-->
+<!--</RelativeLayout>-->

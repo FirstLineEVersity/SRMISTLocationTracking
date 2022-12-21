@@ -1,0 +1,10 @@
+<resources>
+<!--    <string name="app_name">myLocationTracking and My FingerPrintAuthentication App</string>-->
+    <string name="app_name">Attendance</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="result_display">Result Display ...</string>
+    <string name="scan">Scan</string>
+    <string name="todo">TODO</string>
+
+</resources>

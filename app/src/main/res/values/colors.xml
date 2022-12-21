@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0C4DA2</color>
+<!--    <color name="colorPrimaryDark">#3700B3</color>-->
+    <color name="colorblue">#0C4DA2</color>
+    <color name="appColor">#0C4DA2</color>
+    <color name="appColorButton">#0C4DA2</color>
+    <color name="btnCornerColor">#0C4DA2</color>
+    <color name="btnHover">#eeeeee</color>
+
+
+    <color name="colorPrimaryDark">#FF01BAEF</color>
+    <color name="colorAccent">#0C4DA2</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colornormal">#F6F7F9</color>
+    <color name="colorBlack">#000000</color>
+    <color name="cardColor">#ffffff</color>
+    <color name="appBackGroundWhite">#ffffff</color>
+    <color name="textcardColor">#3f3f3f</color>
+    <color name="colorGreyLogin">#fcf0f5</color>
+
+</resources>

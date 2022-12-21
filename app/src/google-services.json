@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687929820535",
+    "project_id": "mylocationtracking-fae70",
+    "storage_bucket": "mylocationtracking-fae70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687929820535:android:99dec12926c084fb688d72",
+        "android_client_info": {
+          "package_name": "com.firstline.mylocationtracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687929820535-2hs99uitc14gvvmu5mk6eu0t96vlihuu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe4n_QsKVHuIbw1sbDI3vmLiYmorc125Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687929820535-2hs99uitc14gvvmu5mk6eu0t96vlihuu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
